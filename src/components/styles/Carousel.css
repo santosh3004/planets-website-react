@@ -1,0 +1,23 @@
+.carousel {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: hsl(var(--clr-bg));
+}
+.carousel-img {
+    width: 900px;
+}
+.arrows {
+    cursor: pointer;
+    color: var(--clr-white);
+}
+.arrow-b {
+    position: absolute;
+    left: 2%;
+}
+.arrow-f {
+    position: absolute;
+    right: 2%;
+}

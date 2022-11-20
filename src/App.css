@@ -1,0 +1,31 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+img,picture {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+
+/* colors */
+
+:root {
+  --clr-white:#fff;
+  --clr-light: 231 77% 90%;
+  --clr-glass: 0, 17%, 76%, 0.114;
+  --clr-darkblue:rgb(36, 50, 111);
+  --clr-gray:hsl(0, 2%, 53%);
+  --clr-bg: 0, 7%, 1%, 0.914;
+  --sec-bg:rgba(0, 0, 0, 0.537),rgba(0, 0, 0, 0.27);
+}
